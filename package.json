@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-restful-api",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS RESTful API",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mukhtasar",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "prisma": "^5.0.0"
+  }
+}
