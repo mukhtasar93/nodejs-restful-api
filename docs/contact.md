@@ -149,6 +149,7 @@ Response Body Success :
         "total_item" : 30
     }
 }
+```
 
 Response Body Error : 
 

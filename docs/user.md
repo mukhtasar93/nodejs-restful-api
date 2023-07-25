@@ -73,8 +73,8 @@ Request Body :
 
 ```json
 {
-    "name" : "New Name", //optional
-    "password": "New password" // optional
+    "name" : "New Name", 
+    "password": "New password" 
 }
 ```
 
