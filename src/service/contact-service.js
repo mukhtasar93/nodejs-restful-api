@@ -6,9 +6,8 @@ import {
 	updateContactValidation,
 } from "../validation/contact-validation.js";
 import { prismaClient } from "../application/database.js";
-import { validate } from "uuid";
+import { validate } from "../validation/validation.js";
 import { ResponseError } from "../error/response-error.js";
-import { valid } from "joi";
 const create = async (user, request) => {
 	const contact = validate(createContactValidation, request);
 	contact.username = user.username;

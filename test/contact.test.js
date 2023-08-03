@@ -6,7 +6,6 @@ import {
 	getTestContact,
 	removeAllTestContact,
 } from "./test-util.js";
-import { func } from "joi";
 
 describe("POST /api/contacts", function () {
 	beforeEach(async () => {

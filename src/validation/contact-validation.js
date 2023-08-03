@@ -1,4 +1,3 @@
-import { join } from "@prisma/client/runtime/library";
 import Joi from "joi";
 
 const createContactValidation = Joi.object({
